@@ -1,0 +1,7 @@
+/bin/
+/bin_tests/
+/test-output/
+/ressources/connexion_Employee_test.properties
+/ressources/connexion_parking.properties
+/ressources/connexion_parking_test_properties
+

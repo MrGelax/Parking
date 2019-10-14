@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controleurs.CtrAjout_Voit">
+   <children>
+      <AnchorPane layoutX="-90.0" layoutY="-173.0" minHeight="600.0" minWidth="550.0" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Label alignment="CENTER" layoutX="90.0" layoutY="211.0" prefHeight="17.0" prefWidth="460.0" text="%Ajout_Voiture" textAlignment="CENTER" AnchorPane.bottomAnchor="370.0" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="190.0">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="165.0" layoutY="291.0" text="%Immatri">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="165.0" layoutY="344.0" text="%Nom">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="165.0" layoutY="403.0" text="%Prenom">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txfImmatr" layoutX="256.0" layoutY="288.0" />
+            <TextField fx:id="txfNom" layoutX="256.0" layoutY="341.0" />
+            <TextField fx:id="tfxPrenom" layoutX="256.0" layoutY="400.0" />
+            <TextArea fx:id="txtErreur" layoutX="134.0" layoutY="457.0" prefHeight="60.0" prefWidth="275.0" />
+            <Button fx:id="btnAdd" layoutX="343.0" layoutY="543.0" mnemonicParsing="false" text="%btnAdd" />
+            <Button fx:id="btnCancel" layoutX="430.0" layoutY="543.0" mnemonicParsing="false" text="%btnCancel" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
